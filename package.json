@@ -1,0 +1,40 @@
+{
+  "name": "reverse-proxy-starter",
+  "version": "1.0.0",
+  "description": "A simple reverse proxy web server setup starter",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bump": "npm test && npm version patch && git push && git push --tags && npm publish"
+  },
+  "bin": {
+    "reverse-proxy": "lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/reverse-proxy-starter.git"
+  },
+  "keywords": [
+    "reverse",
+    "proxy"
+  ],
+  "author": "s-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/reverse-proxy-starter/issues"
+  },
+  "homepage": "https://github.com/s-a/reverse-proxy-starter#readme",
+  "dependencies": {
+    "redbird": "^0.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "stylelint": "^8.2.0",
+    "stylelint-config-standard": "^17.0.0",
+    "cross-env": "^5.1.1"
+  }
+}
