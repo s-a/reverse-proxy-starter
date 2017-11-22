@@ -1,6 +1,6 @@
 {
   "name": "reverse-proxy-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple reverse proxy web server setup starter",
   "main": "lib/index.js",
   "scripts": {
