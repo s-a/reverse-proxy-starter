@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm i [-g] reverse-proxy-starter`
+`npm i [-g] reverse-proxy-starter [--save-dev]`
 
 ## Usage
 
